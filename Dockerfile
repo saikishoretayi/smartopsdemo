@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-buster
 USER root
-ADD smartops-server.tar.gz /opt/
+ADD smartops-server /opt/
 RUN mv /opt/smartops-server /opt/smartops-application
 RUN chmod 777 -R /opt/smartops-application
 EXPOSE 8080:8080
