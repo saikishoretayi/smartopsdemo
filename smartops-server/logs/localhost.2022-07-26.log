@@ -1,0 +1,18 @@
+26-Jul-2022 23:14:13.237 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Jul-2022 23:14:13.237 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Jul-2022 23:14:13.238 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@7f12cea')
+26-Jul-2022 23:14:34.780 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log 3 Spring WebApplicationInitializers detected on classpath
+26-Jul-2022 23:14:38.413 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+26-Jul-2022 23:14:39.079 INFO [localhost-startStop-3] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+26-Jul-2022 23:14:42.199 INFO [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Jul-2022 23:15:29.632 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+26-Jul-2022 23:15:29.642 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+26-Jul-2022 23:15:29.649 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+26-Jul-2022 23:15:50.621 INFO [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+26-Jul-2022 23:15:56.583 INFO [localhost-startStop-4] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+26-Jul-2022 23:16:07.081 INFO [http-nio-8080-exec-13] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-Jul-2022 23:17:47.544 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcherServlet'
+26-Jul-2022 23:17:47.545 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+26-Jul-2022 23:18:18.459 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log 2 Spring WebApplicationInitializers detected on classpath
+26-Jul-2022 23:18:24.312 INFO [localhost-startStop-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring embedded WebApplicationContext
+26-Jul-2022 23:18:34.852 INFO [http-nio-8080-exec-21] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcherServlet'

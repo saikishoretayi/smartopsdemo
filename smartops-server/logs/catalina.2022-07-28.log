@@ -1,0 +1,300 @@
+28-Jul-2022 14:12:50.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.5
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+28-Jul-2022 14:12:50.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2022 14:12:50.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:12:50.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/conf/logging.properties
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:12:50.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:12:50.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/temp
+28-Jul-2022 14:12:50.668 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/santoshkumarkar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Jul-2022 14:12:50.696 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:12:50.711 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1115)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:224)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:200)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1112)
+		... 11 more
+28-Jul-2022 14:12:50.712 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 405 ms
+28-Jul-2022 14:12:50.747 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2022 14:12:50.747 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+28-Jul-2022 14:12:50.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war]
+28-Jul-2022 14:12:51.952 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2022 14:12:58.763 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war] has finished in [7,999] ms
+28-Jul-2022 14:12:58.764 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs]
+28-Jul-2022 14:12:58.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs] has finished in [15] ms
+28-Jul-2022 14:12:58.779 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager]
+28-Jul-2022 14:12:58.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager] has finished in [28] ms
+28-Jul-2022 14:12:58.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples]
+28-Jul-2022 14:12:58.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples] has finished in [144] ms
+28-Jul-2022 14:12:58.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT]
+28-Jul-2022 14:12:58.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT] has finished in [10] ms
+28-Jul-2022 14:12:58.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager]
+28-Jul-2022 14:12:58.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager] has finished in [22] ms
+28-Jul-2022 14:12:58.985 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8272 ms
+28-Jul-2022 14:15:43.859 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:15:43.859 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2022 14:15:43.887 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:15:43.888 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:15:49.712 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.5
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+28-Jul-2022 14:15:49.714 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2022 14:15:49.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:15:49.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/conf/logging.properties
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2022 14:15:49.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jul-2022 14:15:49.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2022 14:15:49.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:15:49.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:15:49.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/temp
+28-Jul-2022 14:15:49.717 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/santoshkumarkar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Jul-2022 14:15:49.745 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:15:49.761 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1115)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:571)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:874)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:646)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:669)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:224)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:200)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1234)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:230)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1112)
+		... 11 more
+28-Jul-2022 14:15:49.762 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 399 ms
+28-Jul-2022 14:15:49.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2022 14:15:49.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+28-Jul-2022 14:15:49.811 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war]
+28-Jul-2022 14:15:50.971 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2022 14:15:54.686 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war] has finished in [4,876] ms
+28-Jul-2022 14:15:54.687 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs]
+28-Jul-2022 14:15:54.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs] has finished in [14] ms
+28-Jul-2022 14:15:54.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager]
+28-Jul-2022 14:15:54.729 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager] has finished in [27] ms
+28-Jul-2022 14:15:54.729 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples]
+28-Jul-2022 14:15:54.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples] has finished in [125] ms
+28-Jul-2022 14:15:54.854 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT]
+28-Jul-2022 14:15:54.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT] has finished in [9] ms
+28-Jul-2022 14:15:54.863 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager]
+28-Jul-2022 14:15:54.883 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager] has finished in [20] ms
+28-Jul-2022 14:15:54.884 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5121 ms
+28-Jul-2022 14:16:17.445 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:17.445 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2022 14:16:17.468 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:17.469 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:19.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.5
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:16:19.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:16:19.146 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/conf/logging.properties
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2022 14:16:19.147 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:16:19.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81
+28-Jul-2022 14:16:19.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/temp
+28-Jul-2022 14:16:19.148 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/santoshkumarkar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Jul-2022 14:16:19.177 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:19.207 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 374 ms
+28-Jul-2022 14:16:19.234 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2022 14:16:19.234 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+28-Jul-2022 14:16:19.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war]
+28-Jul-2022 14:16:20.220 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2022 14:16:26.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/smartopsdemo.war] has finished in [7,657] ms
+28-Jul-2022 14:16:26.904 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs]
+28-Jul-2022 14:16:26.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/docs] has finished in [12] ms
+28-Jul-2022 14:16:26.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager]
+28-Jul-2022 14:16:26.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/manager] has finished in [23] ms
+28-Jul-2022 14:16:26.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples]
+28-Jul-2022 14:16:27.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/examples] has finished in [106] ms
+28-Jul-2022 14:16:27.045 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT]
+28-Jul-2022 14:16:27.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/ROOT] has finished in [9] ms
+28-Jul-2022 14:16:27.054 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager]
+28-Jul-2022 14:16:27.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/Softwares/apache-tomcat-8.5.81/webapps/host-manager] has finished in [11] ms
+28-Jul-2022 14:16:27.067 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:27.085 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7877 ms
+28-Jul-2022 14:16:53.317 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:53.323 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2022 14:16:53.355 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 14:16:53.360 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:06:31.923 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.5
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-18.0.2.jdk/Contents/Home
+28-Jul-2022 17:06:31.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+28-Jul-2022 17:06:31.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2022 17:06:31.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81
+28-Jul-2022 17:06:31.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/conf/logging.properties
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2022 17:06:31.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/temp
+28-Jul-2022 17:06:31.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/santoshkumarkar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+28-Jul-2022 17:06:31.958 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:06:31.985 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 415 ms
+28-Jul-2022 17:06:32.012 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2022 17:06:32.013 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+28-Jul-2022 17:06:32.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/docs]
+28-Jul-2022 17:06:32.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/docs] has finished in [192] ms
+28-Jul-2022 17:06:32.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/manager]
+28-Jul-2022 17:06:32.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/manager] has finished in [30] ms
+28-Jul-2022 17:06:32.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/examples]
+28-Jul-2022 17:06:32.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/examples] has finished in [200] ms
+28-Jul-2022 17:06:32.442 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/ROOT]
+28-Jul-2022 17:06:32.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/ROOT] has finished in [13] ms
+28-Jul-2022 17:06:32.455 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/host-manager]
+28-Jul-2022 17:06:32.470 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/host-manager] has finished in [15] ms
+28-Jul-2022 17:06:32.472 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:06:32.482 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 495 ms
+28-Jul-2022 17:06:42.477 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/smartopsdemo.war]
+28-Jul-2022 17:06:43.771 INFO [localhost-startStop-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2022 17:06:50.709 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/santoshkumarkar/prototypes/smartopsdemo in tomcat/apache-tomcat-8.5.81/webapps/smartopsdemo.war] has finished in [8,232] ms
+28-Jul-2022 17:08:48.735 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:08:48.741 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2022 17:08:48.768 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:08:48.776 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:29:56.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.81
+28-Jul-2022 17:29:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 8 2022 21:30:15 UTC
+28-Jul-2022 17:29:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.81.0
+28-Jul-2022 17:29:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Jul-2022 17:29:56.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Jul-2022 17:29:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jul-2022 17:29:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk-17_windows-x64_bin
+28-Jul-2022 17:29:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.1+12-LTS-39
+28-Jul-2022 17:29:56.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Jul-2022 17:29:56.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\santoshkumar.kar\Downloads\smartops-server
+28-Jul-2022 17:29:56.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\santoshkumar.kar\Downloads\smartops-server
+28-Jul-2022 17:29:56.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jul-2022 17:29:56.443 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\santoshkumar.kar\Downloads\smartops-server\conf\logging.properties
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jul-2022 17:29:56.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jul-2022 17:29:56.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jul-2022 17:29:56.458 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jul-2022 17:29:56.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\santoshkumar.kar\Downloads\smartops-server
+28-Jul-2022 17:29:56.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\santoshkumar.kar\Downloads\smartops-server
+28-Jul-2022 17:29:56.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\santoshkumar.kar\Downloads\smartops-server\temp
+28-Jul-2022 17:29:56.462 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\jdk-17_windows-x64_bin\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Users\santoshkumar.kar\AppData\Local\Microsoft\WindowsApps;C:\jdk-17_windows-x64_bin\bin;C:\apache-maven-3.8.4\bin;C:\Users\santoshkumar.kar\AppData\Roaming\npm;C:\Users\santoshkumar.kar\AppData\Local\Pandoc\;C:\Users\santoshkumar.kar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\santoshkumar.kar\.dotnet\tools;.]
+28-Jul-2022 17:29:56.556 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:29:56.609 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 906 ms
+28-Jul-2022 17:29:56.690 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jul-2022 17:29:56.691 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.81]
+28-Jul-2022 17:29:56.782 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\smartopsdemo.war]
+28-Jul-2022 17:30:02.585 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jul-2022 17:30:10.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\smartopsdemo.war] has finished in [13,227] ms
+28-Jul-2022 17:30:10.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\docs]
+28-Jul-2022 17:30:10.077 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\docs] has finished in [68] ms
+28-Jul-2022 17:30:10.085 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\examples]
+28-Jul-2022 17:30:12.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\examples] has finished in [2,533] ms
+28-Jul-2022 17:30:12.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\host-manager]
+28-Jul-2022 17:30:12.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\host-manager] has finished in [131] ms
+28-Jul-2022 17:30:12.749 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\manager]
+28-Jul-2022 17:30:12.865 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\manager] has finished in [116] ms
+28-Jul-2022 17:30:12.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\ROOT]
+28-Jul-2022 17:30:12.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\santoshkumar.kar\Downloads\smartops-server\webapps\ROOT] has finished in [61] ms
+28-Jul-2022 17:30:12.942 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:30:13.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16411 ms
+28-Jul-2022 17:30:35.937 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:30:35.960 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Jul-2022 17:30:36.001 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Jul-2022 17:30:36.029 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
